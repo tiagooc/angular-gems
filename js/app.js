@@ -8,7 +8,7 @@
 
         $http.get('gems.json').success(function(data){
             store.products = data;
-        }); 
+        });
     }] );
 
     app.controller('ReviewController', function(){
